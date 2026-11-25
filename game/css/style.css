@@ -1,0 +1,27 @@
+/* SIMMER & SERVE — page chrome. The game itself is canvas-drawn. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #100c26;
+  font-family: "Noto Sans", "DejaVu Sans", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+canvas {
+  display: block;
+  max-width: min(1280px, 96vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.hint {
+  color: #c9b8f2;
+  font-size: 14px;
+  margin: 10px 0 0;
+  text-align: center;
+}
